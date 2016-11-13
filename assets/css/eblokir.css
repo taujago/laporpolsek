@@ -1,0 +1,63 @@
+
+
+
+body {
+  padding:0px auto;
+}
+
+.container {
+  padding:0px;
+}
+
+#homepage {
+     background-size:cover;
+ }
+
+#page-header h1{
+  color : #fff;
+  font-size: $0px;
+  text-shadow: 3px 0px 9px rgba(153, 150, 150, 1);
+}
+
+#page-header h1 small {
+color : #fff;
+}
+
+
+
+
+.green {
+	color : green;
+}
+.red {
+	color:red;
+}
+
+#leasing td,#leasing th {
+	font-size:12px;
+}
+
+
+
+.nested-group input:focus {
+        box-shadow: none;
+    }
+
+    .nested-group input:first-child {
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .nested-group input {
+        margin-left: -5px;
+        border-radius: 0px;
+    }
+
+    .nested-group  button {
+        margin-left: -5px;
+        border-left: none;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }

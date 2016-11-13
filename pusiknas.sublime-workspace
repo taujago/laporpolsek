@@ -1,0 +1,1038 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id_kelompok"
+			],
+			[
+				"saksi_",
+				"saksi_id"
+			],
+			[
+				"saksi",
+				"saksi_id"
+			],
+			[
+				"pengemudi",
+				"pengemudi_tgl_lahir"
+			],
+			[
+				"fung",
+				"fungsi"
+			],
+			[
+				"kejadi",
+				"kejadian_tanggal"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"lap_a",
+				"lap_a_catatan"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"lap",
+				"lap_a_id"
+			],
+			[
+				"pass",
+				"pass2"
+			],
+			[
+				"user_pas",
+				"user_pass2"
+			],
+			[
+				"data",
+				"datagrid"
+			],
+			[
+				"text",
+				"textarea\tTag"
+			],
+			[
+				"lap_",
+				"lap_a_id"
+			],
+			[
+				"sub",
+				"sub_filter"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"temp",
+				"temp_lap_a_id"
+			],
+			[
+				"arr",
+				"arr_jk"
+			],
+			[
+				"fungsi",
+				"fungsi_x"
+			],
+			[
+				"tanggal",
+				"tanggal_akhir"
+			],
+			[
+				"tanga",
+				"tanggal_awal"
+			],
+			[
+				"tangga",
+				"tanggal_awal"
+			],
+			[
+				"tersangka",
+				"tersangka_nama"
+			],
+			[
+				"barbuk",
+				"barbuk_nama"
+			],
+			[
+				"tersang",
+				"tersangka_nama"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"row",
+				"row_data"
+			],
+			[
+				"bind",
+				"binds"
+			],
+			[
+				"pemoho",
+				"pemohon"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"mysql_err",
+				"mysql_error"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "UPDATE SISTEM LAPORAN POLISI.txt",
+			"settings":
+			{
+				"buffer_size": 3198,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/template_admin.php",
+			"settings":
+			{
+				"buffer_size": 9154,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "create tablespace TBS_DBSIFIK_JABAR datafile '/u01/app/oracle/oradata/ora11g/TBS_DBSIFIK_JABAR.dbf' size 500m \n  2  autoextend on next 1m maxsize unlimited; \n\n\n  create user dbsifik_jabar identified by p1k1r3ndh3w3 default tablespace TBS_DBSIFIK_JABAR profile default; \n\nUser created.\n\nSQL> grant connect, resource, dba to dbsfik_jabar; \n",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix",
+				"name": "create tablespace TBS_DBSIFIK_JABAR datafile '/u01"
+			}
+		},
+		{
+			"file": "/Users/firman/Desktop/machine_spec.txt",
+			"settings":
+			{
+				"buffer_size": 103,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "MTM : 7947-52A"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/firman/htdocs/pusiknas",
+		"/Users/firman/htdocs/pusiknas/application",
+		"/Users/firman/htdocs/pusiknas/application/modules",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/views",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/controllers",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/models",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views",
+		"/Users/firman/htdocs/pusiknas/application/views",
+		"/Users/firman/htdocs/pusiknas/application/views/js",
+		"/Users/firman/htdocs/pusiknas/assets"
+	],
+	"file_history":
+	[
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/models/admin_tempat_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/controllers/admin_tempat.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/views/admin_tempat_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/views/admin_tempat_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_tempat/views/admin_tempat_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/controllers/admin_motif.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/models/admin_motif_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/views/admin_motif_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/views/admin_motif_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_motif/views/admin_motif_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/views/admin_kesatuan_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/models/admin_kesatuan_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/views/admin_kesatuan_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/views/admin_kesatuan_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kesatuan/controllers/admin_kesatuan.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/models/admin_pasal_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/views/admin_pasal_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/views/admin_pasal_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/controllers/admin_pasal.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pasal/views/admin_pasal_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/models/agk_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/views/admin_golongan_kejahatan_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/views/admin_golongan_kejahatan_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/controllers/admin_golongan_kejahatan.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_golongan_kejahatan/views/admin_golongan_kejahatan_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/views/admin_pengguna_view.php",
+		"/Users/firman/htdocs/pusiknas/application/helpers/tanggal_helper.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/models/akk_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/views/admin_kelompok_kejahatan_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/views/admin_kelompok_kejahatan_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/controllers/admin_kelompok_kejahatan.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_kelompok_kejahatan/views/admin_kelompok_kejahatan_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/libraries/admin_controller.php",
+		"/Users/firman/htdocs/pusiknas/application/controllers/index_administrator.php",
+		"/Users/firman/htdocs/pusiknas/application/views/template_penyidik.php",
+		"/Users/firman/htdocs/pusiknas/application/views/template_admindik.php",
+		"/Users/firman/htdocs/pusiknas/application/views/template_admin.php",
+		"/Users/firman/htdocs/pusiknas/application/controllers/index_admindik.php",
+		"/Users/firman/htdocs/pusiknas/application/libraries/admindik_controller.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/controllers/admin_pengguna.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/controllers/lap_a.php",
+		"/Users/firman/htdocs/pusiknas/application/libraries/master_controller.php",
+		"/Users/firman/htdocs/pusiknas/application/views/template_baru.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/pencarian/controllers/pencarian.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_lantas/controllers/lap_lantas.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_lantas/views/lap_lantas_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_b/controllers/lap_b.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_lantas/views/lap_lantas_view_form_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_lantas/views/lap_lantas_view_js.php",
+		"/Users/firman/Downloads/PERBAIKAN DAN PENAMBAHAN (1)",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_lantas/models/lap_lantas_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_b/models/lap_b_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_d/controllers/lap_d.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_c/controllers/lap_c.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_d/views/lap_d_view_form_js.php",
+		"/Users/firman/htdocs/pusiknas/application/controllers/depan_baru.php",
+		"/Users/firman/htdocs/pusiknas/application/models/coremodel.php",
+		"/Users/firman/htdocs/pusiknas/application/core/MY_Router.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_b/views/lap_b_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_d/views/lap_d_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/models/lap_a_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_form_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_b/views/lap_b_view_form_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/views/js/general_js.php",
+		"/Users/firman/htdocs/pusiknas/application/controllers/general.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/login/controllers/login.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_a/models/admindik_lap_a_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_d/models/lap_d_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_c/models/lap_c_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_c/views/lap_c_view_form.php",
+		"/Users/firman/htdocs/pusiknas/updatedb.sql",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_d/views/lap_d_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/models/penyidik_lap_b_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_b/views/lap_b_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/controllers/penyidik_lap_b.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/views/penyidik_lap_b_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/views/penyidik_lap_b_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/views/penyidik_lap_b_view_detail_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_b/views/penyidik_lap_b_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_a/views/penyidik_lap_a_view_detail_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_a/views/penyidik_lap_a_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_a/controllers/penyidik_lap_a.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_a/models/penyidik_lap_a_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail_js.php",
+		"/Users/firman/htdocs/pusiknas/application/controllers/index_penyidik.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/penyidik_lap_a/views/penyidik_lap_a_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_a/views/admindik_lap_a_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_b/views/admindik_lap_b_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_b/views/admindik_lap_b_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_b/views/admindik_lap_b_view_detail_js.php",
+		"/Users/firman/htdocs/pusiknas/application/libraries/penyidik_controller.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_a/views/admindik_lap_a_view_detail_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_a/views/admindik_lap_a_view_detail.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_a/controllers/admindik_lap_a.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_b/controllers/admindik_lap_b.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_lap_b/models/admindik_lap_b_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/views/admin_pengguna_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_penyidik/views/admindik_penyidik_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_penyidik/models/penyidik_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_penyidik/controllers/admindik_penyidik.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_penyidik/views/admindik_penyidik_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admindik_penyidik/views/admindik_penyidik_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/views/admin_pengguna_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_pengguna/models/a_pengguna_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polsek/views/admin_polsek_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polsek/models/polsek_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polsek/controllers/admin_polsek.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polsek/views/admin_polsek_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polsek/views/admin_polsek_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polres/models/polres_model.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polres/controllers/admin_polres.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polres/views/admin_polres_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polres/views/admin_polres_view_form.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/admin_polres/views/admin_polres_view_js.php",
+		"/Users/firman/htdocs/pusiknas/application/views/template_polisi.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail_form_saksi.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail_backup.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail_form_barbuk.php",
+		"/Users/firman/htdocs/pusiknas/application/helpers/serviceurl_helper.php",
+		"/Users/firman/htdocs/pusiknas/application/third_party/MX/Loader.php",
+		"/Users/firman/htdocs/pusiknas/application/libraries/excel/system/libraries/Session.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/lap_a_view_detail_form_korban.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/login/views/login_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/pencarian/views/pencarian_hasil_view.php",
+		"/Users/firman/htdocs/pusiknas/application/modules/lap_a/views/pdf/pdf_laporan.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"enis_lokasi",
+			"jenis_lokasi",
+			"KATEGORI TEMPAT",
+			"KATEGORI TEMPAT KEJAHATAN",
+			"jenis_lokasi",
+			"admin_tempat_model",
+			"admin_tempat",
+			"kategori_tempat",
+			"id_kategori",
+			"id_kesatuan",
+			"admin_kesatuan_model",
+			"admin_kesatuan",
+			"kesatuan",
+			"KESATUAN",
+			"kesatuan",
+			"KESATUAN",
+			"kesatuan",
+			"kelompok",
+			"id_kelompok",
+			"kelompok",
+			"id_kelompok",
+			"KELOMPOK KEJAHATAN",
+			"akk_model",
+			"admin_kelompok_kejahatan",
+			"id_kelompok",
+			"arr_kelompok",
+			"id_kelompok",
+			"arr_kelompok",
+			"m_golongan_kejahatan",
+			"DATA POLSEK",
+			"GOLOGNAN KEJAHATAN",
+			"GOLOGNAN",
+			"id_kelompok",
+			"agk_model",
+			"admin_golongan_kejahatan",
+			"POLSEK",
+			"admin_polsek",
+			"polsek_model",
+			"nama_polres",
+			"id_polres",
+			"m_polres",
+			"polres_model",
+			"admin_polres",
+			"data",
+			"temp_",
+			"temp_get_lap_lantas_korban",
+			"get_lap_laka_lantas_pengemudi",
+			"get_lap_lantas_pengemudi",
+			"tmp_",
+			"temp_",
+			"barbuk",
+			"EDIT",
+			"barbuk",
+			"temp_get_lap_lantas_kendaraan",
+			"a_barbuk",
+			"barbuk",
+			"korban",
+			"barbuk_",
+			"form_barbuk",
+			"barbuk_",
+			"LAPORAN",
+			"TIPE D",
+			"TIPE C",
+			"pengemudi_",
+			"saksi_",
+			"saksi",
+			"tersangka",
+			"tidak pi",
+			"pelapor",
+			"arr_kelompok_kejahan",
+			"kesatuan",
+			"pelapor",
+			"Nrp",
+			"values",
+			"TIPE C",
+			"MODEL-B",
+			"TIPE A",
+			"TIPE B",
+			"$id",
+			"id_fungsi",
+			"tanggal",
+			"tagngal",
+			"orban",
+			"tanggal",
+			"lap_c_id",
+			"lab_d",
+			"lab_p_model",
+			"lab_d_model",
+			"lab_d",
+			"lap_a",
+			"catatan_",
+			"lap_a_catatan",
+			"saksi_",
+			"get_lap_a_catatan",
+			"get_lap_a_saksi",
+			"pasalmodal",
+			"pasal",
+			"barang buk",
+			"barang",
+			"admindik",
+			"index_admindik",
+			"admindik",
+			"lap_a_id",
+			"lap_b_model",
+			"lap_b",
+			")",
+			"(",
+			"render_baru",
+			"lap_a_model",
+			"lap_a",
+			"2",
+			"a_pengguna_model",
+			"admin_pengguna",
+			"admin_controller",
+			"jsonData",
+			" $(\"#jenis\").val()",
+			"level",
+			"$param['",
+			"polres",
+			"id_polres",
+			"_",
+			"id_polres",
+			"polres",
+			"POLRES",
+			"polres_model",
+			"admin_polres",
+			"id",
+			"a_pengguna_model"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "UPDATE SISTEM LAPORAN POLISI.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/template_admin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7306,
+								7306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3638.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								337
+							]
+						],
+						"settings":
+						{
+							"auto_name": "create tablespace TBS_DBSIFIK_JABAR datafile '/u01",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/firman/Desktop/machine_spec.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								103
+							]
+						],
+						"settings":
+						{
+							"auto_name": "MTM : 7947-52A",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pusiknas.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tangg",
+				"application/helpers/tanggal_helper.php"
+			],
+			[
+				"template_admin.php",
+				"application/views/template_admin.php"
+			],
+			[
+				"admin",
+				"application/libraries/admin_controller.php"
+			],
+			[
+				"templateadmin",
+				"application/views/template_admindik.php"
+			],
+			[
+				"templatepe",
+				"application/views/template_penyidik.php"
+			],
+			[
+				"template",
+				"application/views/template_admindik.php"
+			],
+			[
+				"admindikc",
+				"application/libraries/admindik_controller.php"
+			],
+			[
+				"indexadmindik",
+				"application/controllers/index_admindik.php"
+			],
+			[
+				"templatead",
+				"application/views/template_admin.php"
+			],
+			[
+				"admincon",
+				"application/libraries/admin_controller.php"
+			],
+			[
+				"indexadmin",
+				"application/controllers/index_administrator.php"
+			],
+			[
+				"templatebaru",
+				"application/views/template_baru.php"
+			],
+			[
+				"master",
+				"application/libraries/master_controller.php"
+			],
+			[
+				"lap",
+				"application/modules/lap_a/controllers/lap_a.php"
+			],
+			[
+				"baru",
+				"application/controllers/depan_baru.php"
+			],
+			[
+				"template_baru.php",
+				"application/views/template_baru.php"
+			],
+			[
+				"master_con",
+				"application/libraries/master_controller.php"
+			],
+			[
+				"lap_a",
+				"application/modules/lap_a/controllers/lap_a.php"
+			],
+			[
+				"coremode",
+				"application/models/coremodel.php"
+			],
+			[
+				"coremote",
+				"application/core/MY_Router.php"
+			],
+			[
+				"coremodel",
+				"application/models/coremodel.php"
+			],
+			[
+				"lapc",
+				"application/modules/lap_c/controllers/lap_c.php"
+			],
+			[
+				"coremo",
+				"application/models/coremodel.php"
+			],
+			[
+				"lapd",
+				"application/modules/lap_d/controllers/lap_d.php"
+			],
+			[
+				"general",
+				"application/views/js/general_js.php"
+			],
+			[
+				"gen",
+				"application/controllers/general.php"
+			],
+			[
+				"lapa",
+				"application/modules/lap_a/controllers/lap_a.php"
+			],
+			[
+				"template_penyidik",
+				"application/views/template_penyidik.php"
+			],
+			[
+				"penyidik",
+				"application/libraries/penyidik_controller.php"
+			],
+			[
+				"templateadmindik",
+				"application/views/template_admindik.php"
+			],
+			[
+				"login.php",
+				"application/modules/login/controllers/login.php"
+			],
+			[
+				"coremod",
+				"application/models/coremodel.php"
+			],
+			[
+				"templateba",
+				"application/views/template_baru.php"
+			],
+			[
+				"tanggalhe",
+				"application/helpers/tanggal_helper.php"
+			],
+			[
+				"eblokir",
+				"assets/css/eblokir.css"
+			],
+			[
+				"templateb",
+				"application/views/template_baru.php"
+			],
+			[
+				"tempalteb",
+				"application/views/template_baru.php"
+			],
+			[
+				"lap_a_form",
+				"application/modules/lap_a/views/lap_a_view_form.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"temp",
+				"application/views/template_baru.php"
+			],
+			[
+				"masterco",
+				"application/libraries/master_controller.php"
+			],
+			[
+				"ebloki",
+				"assets/css/eblokir.css"
+			],
+			[
+				"templatebau",
+				"application/views/template_baru.php"
+			],
+			[
+				"ge",
+				"application/controllers/general.php"
+			],
+			[
+				"depan_view",
+				"application/views/depan_view.php"
+			],
+			[
+				"depan_baru",
+				"application/controllers/depan_baru.php"
+			],
+			[
+				"route",
+				"application/config/routes.php"
+			],
+			[
+				"eblok",
+				"assets/css/eblokir.css"
+			],
+			[
+				"templatebar",
+				"application/views/template_baru.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"ora_modl",
+				"application/core/ORA_Model.php"
+			],
+			[
+				"autoloa",
+				"application/config/autoload.php"
+			],
+			[
+				"test",
+				"application/controllers/tester.php"
+			],
+			[
+				"oram",
+				"application/core/ORA_Model.php"
+			],
+			[
+				"ora_mo",
+				"application/core/ORA_Model.php"
+			],
+			[
+				"oramodl",
+				"application/models/oramodel.php"
+			],
+			[
+				"tester",
+				"gondolbasor/application/controllers/tester.php"
+			],
+			[
+				"autoload",
+				"stelkendo/application/config/autoload.php"
+			],
+			[
+				"baruo",
+				"stelkendo/application/libraries/BaruController.php"
+			],
+			[
+				"putik",
+				"putiknas.sublime-project"
+			],
+			[
+				"d",
+				"db-design.sql"
+			],
+			[
+				"database",
+				"application/config/database.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"",
+				"application/modules/master_pangkat/controllers/master_pangkat.php"
+			],
+			[
+				"mastercon",
+				"application/libraries/master_controller.php"
+			],
+			[
+				"leasing",
+				"application/modules/leasing/controllers/leasing.php"
+			],
+			[
+				".git",
+				"assets/bower_components/bootstrap-social/.gitignore"
+			],
+			[
+				"tanggal",
+				"application/helpers/tanggal_helper.php"
+			],
+			[
+				"birojasacont",
+				"application/libraries/biro_jasa_controller.php"
+			],
+			[
+				"databa",
+				"application/config/database.php"
+			],
+			[
+				"adminaddpengepulfo",
+				"application/modules/admin_add_pengepul/views/admin_add_pengepul_form_view.php"
+			],
+			[
+				"admin_add_pengepul_",
+				"application/modules/admin_add_pengepul/views/admin_add_pengepul_form_view_js.php"
+			],
+			[
+				"admin_add_pengepul/php",
+				"application/modules/admin_add_pengepul/controllers/admin_add_pengepul.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/htdocs/pusiknas/pusiknas.sublime-project"
+			],
+			[
+				"psik",
+				"~/htdocs/pusiknas/pusiknas.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 301.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

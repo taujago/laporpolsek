@@ -1,0 +1,12 @@
+Buat database dengan nama excel.
+
+Import tabel dari excel.sql
+
+Ubah setingan user, password di system/application/config/database.php
+
+
+
+NOTE:
+----
+Untuk upload excel, kita pakai library excel reader 
+yang ada di folder system/application/library
