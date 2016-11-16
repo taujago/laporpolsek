@@ -325,6 +325,8 @@ function update(){
 			 $res = $this->db->update("lap_c",$data);
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"Data berhasil diupdate");
+
+			 	$this->cm->set_unsync("lap_c","lap_c_id",$data['lap_c_id']);
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());

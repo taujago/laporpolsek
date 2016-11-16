@@ -47,20 +47,13 @@
               <?php 
               $arr_level = $this->cm->get_arr_dropdown("m_level", 
       "id","level",'id');
+              
               echo form_dropdown("level",$arr_level,'','class="form-control" id="level"');
               ?>
               </TD></tr>
 
 
-              <tr><td>Tingkat User</td>
-              <TD>
-              <?php 
-              $arr_jenis = array("polda"=>"POLDA","polres"=>"POLRES","polsek"=>"POLSEK");
-              $arr_jenis = $this->cm->add_arr_head($arr_jenis,"x","== PILIH JENIS INSTANSI ==");
-
-              echo form_dropdown("jenis",$arr_jenis,'','class="form-control" id="jenis"');
-              ?>
-              </TD></tr>
+              
 
 
               <tr  id="tr_satuan"><td>KESATUAN</td>
@@ -74,22 +67,7 @@
 
 
 
-              <tr  id="tr_polres"><td>POLRES</td>
-              <TD>
-              <?php 
-              $arr_polres = $this->cm->get_arr_dropdown("m_polres","id_polres","nama_polres","nama_polres");
-              echo form_dropdown("id_polres",$arr_polres,'','class="form-control" id="id_polres" onchange="get_data_polres(this,\'#id_polsek\',1)"');
-              ?>
-              </TD></tr>
-
-
-               <tr id="tr_polsek"><td>POLSEK</td>
-              <TD>
-              <?php 
-              
-              echo form_dropdown("id_polsek",array(),'','class="form-control" id="id_polsek"');
-              ?>
-              </TD></tr>
+             
 
 
 

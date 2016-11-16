@@ -198,7 +198,10 @@
     <div class="collapse navbar-collapse" style="padding-left: 0px;">       
       <ul class="nav navbar-nav">
         <li class="active"><a href="<?php echo site_url("index_administrator"); ?>">HOME</a></li>
-        <li>
+
+        <li><a href="<?php echo site_url("admin_setting"); ?>">PENGATURAN</a></li> 
+
+       <!--  <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           DATA MASTER<b class="caret"></b></a>
           <ul class="dropdown-menu multi-level">
@@ -215,7 +218,7 @@
                 <li><a href="<?php echo site_url("admin_lapas"); ?>">LAPAS</a></li>
                 
            </ul>
-        </li>
+        </li> -->
         <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           DATA GRAFIK<b class="caret"></b></a>

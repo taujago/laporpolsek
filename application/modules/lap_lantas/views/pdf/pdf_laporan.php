@@ -156,12 +156,12 @@ $setting = $this->cm->get_setting();
   <tr>
     <td width="4%">08</td>
     <td width="26%" align="justify">Bentuk Kecelakaan Lalu Lintas.</td>
-    <td width="70%"><?php echo $kp_tipe_kecelakaan ?></td>
+    <td width="70%">1. Tabrak Depan 2. Tabrak Sisi 3. Tabrak Massal/Beruntun 4. Lepas Kendali 5. Tabrak Menyudut 6. Tabrak Lari 7. Tabrak Belakang</td>
   </tr>
   <tr>
     <td width="4%">09</td>
     <td width="26%" align="justify">Modus Operandi.</td>
-    <td width="70%"></td>
+    <td width="70%">1. Mendahului 2. Tidak Jaga Jarak 3. Kecepatan Tinggi 4. Melanggar</td>
   </tr>
   <tr>
     <td width="4%">10</td>
@@ -288,12 +288,16 @@ $setting = $this->cm->get_setting();
     <td align="center">&nbsp; </td>
   </tr>
   <tr>
-    <td align="center">a.n Kepala KEPALA KEPOLISIAN DAERAH BANTEN</td>
+    <td align="center">a.n DIREKTUR LALU LINTAS POLDA BANTEN</td>
     <td align="center"><u><?php echo $mengetahui_nama; ?></u></td>
   </tr>
   <tr>
-    <td align="center"><?php echo $setting->ttd_jabatan; ?></td>
+    <td align="center">u.b</td>
     <td align="center"><?php echo $meng_pangkat.' NRP. '.$mengetahui_nrp; ?></td>
+  </tr>
+  <tr>
+    <td align="center"><?php echo $setting->ttd_jabatan; ?></td>
+    <td align="center">&nbsp;</td>
   </tr>
   <tr>
     <td align="center">&nbsp;</td>

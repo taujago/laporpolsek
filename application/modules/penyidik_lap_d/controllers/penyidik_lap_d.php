@@ -405,6 +405,7 @@ function perkembangan_simpan(){
              if($res) {
 
                  $ret = array("error"=>false,"message"=>"data perkembangan berhasil disimpan");
+                 $this->cm->set_unsync("lap_d","lap_d_id",$data['lap_d_id']);
              }
              else {
                 $ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -497,6 +498,7 @@ function perkembangan_update(){
              if($res) {
 
                  $ret = array("error"=>false,"message"=>"data perkembangan berhasil disimpan");
+                 $this->cm->set_unsync("lap_d","lap_d_id",$data['lap_d_id']);
              }
              else {
                 $ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -514,6 +516,9 @@ function perkembangan_update(){
     
 function perkembangan_hapus(){
     $data = $this->input->post();
+
+    $this->cm->set_unsync2("lap_d","lap_d_id","lap_d_perkembangan","id",$data['id']);
+
     $this->db->where("id",$data['id']);
     $res = $this->db->delete("lap_d_perkembangan");
     if($res){

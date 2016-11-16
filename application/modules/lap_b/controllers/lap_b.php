@@ -381,6 +381,11 @@ function update(){
 			 $res = $this->db->update("lap_b",$data);
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"Data berhasil diupdate");
+
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+			 	
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -700,6 +705,9 @@ function tersangka_simpan($lap_b_id){
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan",
 			 		"mode"=>"I"
 			 		);
+
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -787,6 +795,11 @@ function tersangka_update($lap_b_id){
 
 function tersangka_hapus(){
 	$data = $this->input->post();
+
+
+	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_tersangka","id",$data['id']);
+
+
 	$this->db->where("id",$data['id']);
 	$res = $this->db->delete("lap_b_tersangka");
 	if($res){
@@ -860,6 +873,10 @@ function saksi_simpan($lap_b_id){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan",
 			 		"mode"=>"I");
+
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -957,6 +974,10 @@ function saksi_update($lap_b_id){
 
 function saksi_hapus(){
 	$data = $this->input->post();
+
+	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_saksi","id",$data['id']);
+
+
 	$this->db->where("id",$data['id']);
 	$res = $this->db->delete("lap_b_saksi");
 	if($res){
@@ -1113,6 +1134,11 @@ function korban_simpan($lap_b_id){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan",
 			 		"mode"=>"I");
+
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -1210,6 +1236,9 @@ function korban_update($lap_b_id){
 
 function korban_hapus(){
 	$data = $this->input->post();
+
+	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_korban","id",$data['id']);
+
 	$this->db->where("id",$data['id']);
 	$res = $this->db->delete("lap_b_korban");
 	if($res){
@@ -1431,6 +1460,9 @@ function barbuk_simpan($lap_b_id){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan",
 			 		"mode"=>"I");
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -1523,6 +1555,11 @@ function barbuk_update($lap_b_id){
 
 function barbuk_hapus(){
 	$data = $this->input->post();
+
+	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_barbuk","id",$data['id']);
+
+
+
 	$this->db->where("id",$data['id']);
 	$res = $this->db->delete("lap_b_barbuk");
 	if($res){
@@ -1571,6 +1608,10 @@ function pasal_simpan($lap_b_id){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan",
 			 		"mode"=>"I");
+
+			 	$this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -1755,6 +1796,10 @@ function tmp_tersangka_update(){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data tersangka berhasil  diupdate",
 			 		"mode"=>"U");
+
+			 	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_tersangka","id",$data['id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -1896,6 +1941,10 @@ function tmp_saksi_simpan(){
 			 	$ret = array("error"=>false,"message"=>"Data saksi berhasil disimpan",
 			 		"mode"=>"I"
 			 		);
+
+			 	// $this->cm->set_unsync2("lap_b","lap_b_id","lap_b_saksi","id",$data['id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>mysql_error()."gagal dtabase" );
@@ -1946,6 +1995,8 @@ function tmp_saksi_update(){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data saksi berhasil  diupdate",
 			 		"mode"=>"U");
+
+			 	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_saksi","id",$data['id']);
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -2134,6 +2185,9 @@ function tmp_korban_update(){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data korban berhasil  diupdate",
 			 		"mode"=>"U");
+			 	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_korban","id",$data['id']);
+
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -2380,6 +2434,9 @@ function tmp_barbuk_update(){
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data barang bukti berhasil  diupdate",
 			 		"mode"=>"U");
+
+			 	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_barbuk","id",$data['id']);
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -2468,6 +2525,11 @@ function tmp_pasal_simpan(){
 
 function pasal_hapus(){
 	$data = $this->input->post();
+
+
+	$this->cm->set_unsync2("lap_b","lap_b_id","lap_b_pasal","id",$data['id']);
+
+
 	$this->db->where("id",$data['id']);
 	$res = $this->db->delete("lap_b_pasal");
 	if($res){

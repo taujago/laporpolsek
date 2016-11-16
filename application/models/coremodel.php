@@ -306,5 +306,31 @@ function arr_penyidik() {
   return $arr;
 }
 
+// function get_setting(){
+//   $data = $this->db->get("setting")->row();
+//   return $data;
+// }
+
+
+function set_unsync($tbname,$key,$id) {
+
+  $arr=array("sync"=>0);
+
+  $this->db->where($key,$id);
+  $this->db->update($tbname,$arr);
+
+}
+
+// $this->cm->set_unsync("lap_a","lap_a_id",$lap_a_id);
+// $this->cm->set_unsync2("lap_a","lap_a_id","lap_a_barbuk","id",$id);
+
+function set_unsync2($tbname,$key,$tbname2,$key2,$id) {
+  $sql = "update $tbname set sync=0 where $key = (select $key 
+        from $tbname2 where $key2='$id')";
+  $this->db->query($sql);
+}
+
+
+
 }
 ?>

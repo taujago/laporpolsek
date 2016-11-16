@@ -76,6 +76,8 @@ function get_data(){
         
         foreach($result as $row) : 
 		//$daft_id = $row['daft_id'];
+
+        	// show_array($row);
         	 
 			$id = $row['id'];
 			$polres_polsek = "";
@@ -193,6 +195,14 @@ function simpan(){
 
 			$data['level'] = 2;
 
+			$data['jenis'] = 'polsek';
+
+			$setting = $this->cm->get_setting();
+			$data['id_polsek'] = $setting->id_polsek;
+
+			$data['id'] = md5(microtime());
+
+
 			 $res = $this->db->insert("pengguna",$data);
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan","mode"=>"I");
@@ -257,10 +267,16 @@ function update(){
 
 
 
+			 $data['sync'] = 0;
 			 $this->db->where("id",$data['id']);
 			 $res = $this->db->update("pengguna",$data);
+
+
 			 if($res) {
 			 	$ret = array("error"=>false,"message"=>"data berhasil disimpan");
+
+			 	$this->cm->set_unsync("pengguna","id",$data['id']);
+
 			 }
 			 else {
 			 	$ret = array("error"=>true,"message"=>$this->db->_error_message(),"mode"=>"U");

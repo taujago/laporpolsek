@@ -163,6 +163,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "application/modules/admin_pengguna/controllers/admin_pengguna.php",
+			"settings":
+			{
+				"buffer_size": 7792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/modules/admin_pengguna/views/admin_pengguna_view_form.php",
+			"settings":
+			{
+				"buffer_size": 4091,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -196,10 +213,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/firman/htdocs/laporpolsek"
+		"/Users/firman/htdocs/laporpolsek",
+		"/Users/firman/htdocs/laporpolsek/application",
+		"/Users/firman/htdocs/laporpolsek/application/modules",
+		"/Users/firman/htdocs/laporpolsek/application/modules/admin_pengguna",
+		"/Users/firman/htdocs/laporpolsek/application/modules/admin_pengguna/views",
+		"/Users/firman/htdocs/laporpolsek/application/modules/lap_b"
 	],
 	"file_history":
 	[
+		"/Users/firman/htdocs/laporpolsek/application/controllers/index_administrator.php",
+		"/Users/firman/htdocs/laporpolsek/application/libraries/admin_controller.php",
+		"/Users/firman/htdocs/laporpolsek/application/views/template_admin.php",
+		"/Users/firman/htdocs/laporpolsek/application/config/database.php",
 		"/Users/firman/Downloads/CREATE ALGORITHM = UNDEFINED DEFINER = `root` @`%`",
 		"/Users/firman/Downloads/v_lap_c-3.sql",
 		"/Users/firman/htdocs/laporpolisi/application/modules/admindik_lap_b/controllers/admindik_lap_b.php",
@@ -323,11 +349,7 @@
 		"/Users/firman/htdocs/laporpolisi/application/models/admindik_lap_c_model.php",
 		"/Users/firman/htdocs/laporpolisi/application/modules/lap_a/models/lap_a_model.php",
 		"/Users/firman/htdocs/laporpolisi/UPDATE SISTEM LAPORAN POLISI.txt",
-		"/Users/firman/htdocs/laporpolisi/application/modules/penyidik_lap_c/models/penyidik_lap_c_model.php",
-		"/Users/firman/htdocs/laporpolisi/application/modules/admindik_lap_c/views/admindik_lap_c_view_detail.php",
-		"/Users/firman/htdocs/laporpolisi/application/modules/penyidik_lap_c/views/penyidik_lap_c_view_detail.php",
-		"/Users/firman/htdocs/laporpolisi/application/modules/penyidik_lap_c/views/penyidik_lap_c_view_detail_detail.php",
-		"/Users/firman/htdocs/laporpolisi/application/modules/penyidik_lap_c/views/penyidik_lap_c_view_detail_penyidik.php"
+		"/Users/firman/htdocs/laporpolisi/application/modules/penyidik_lap_c/models/penyidik_lap_c_model.php"
 	],
 	"find":
 	{
@@ -490,8 +512,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "application/modules/admin_pengguna/controllers/admin_pengguna.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2803,
+								2803
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2430.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/modules/admin_pengguna/views/admin_pengguna_view_form.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4091,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1986,
+								1986
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 845.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -543,6 +624,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"adminpenggu",
+				"application/modules/admin_pengguna/controllers/admin_pengguna.php"
+			],
+			[
+				"template_admin.php",
+				"application/views/template_admin.php"
+			],
+			[
+				"admincon",
+				"application/libraries/admin_controller.php"
+			],
+			[
+				"indexadmini",
+				"application/controllers/index_administrator.php"
+			],
+			[
+				"database",
+				"application/config/database.php"
+			],
 			[
 				"admindikapc",
 				"application/modules/admindik_lap_c/controllers/admindik_lap_c.php"
@@ -680,10 +781,6 @@
 				"application/helpers/tanggal_helper.php"
 			],
 			[
-				"template_admin.php",
-				"application/views/template_admin.php"
-			],
-			[
 				"admin",
 				"application/libraries/admin_controller.php"
 			],
@@ -702,10 +799,6 @@
 			[
 				"indexadmindik",
 				"application/controllers/index_admindik.php"
-			],
-			[
-				"admincon",
-				"application/libraries/admin_controller.php"
 			],
 			[
 				"indexadmin",
@@ -870,10 +963,6 @@
 			[
 				"d",
 				"db-design.sql"
-			],
-			[
-				"database",
-				"application/config/database.php"
 			],
 			[
 				"index.php",

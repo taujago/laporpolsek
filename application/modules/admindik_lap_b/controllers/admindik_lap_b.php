@@ -272,6 +272,10 @@ function penyidik_simpan($lap_b_id){
              $res = $this->db->insert("lap_b_penyidik",$data);
              if($res) {
                 $ret = array("error"=>false,"message"=>"data penyidik berhasil disimpan","mode"=>"I");
+
+                $this->cm->set_unsync("lap_b","lap_b_id",$data['lap_b_id']);
+
+
              }
              else {
                 $ret = array("error"=>true,"message"=>$this->db->_error_message());
@@ -289,6 +293,10 @@ function penyidik_simpan($lap_b_id){
 
 function penyidik_hapus(){
     $data = $this->input->post();
+
+
+    $this->cm->set_unsync2("lap_b","lap_b_id","lap_b_penyidik","id",$data['id']);
+
     $this->db->where("id",$data['id']);
     $res = $this->db->delete("lap_b_penyidik");
 

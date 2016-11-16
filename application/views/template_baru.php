@@ -202,8 +202,8 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
           DATA MASTER<b class="caret"></b></a>
           <ul class="dropdown-menu multi-level">
-                <li><a href="<?php echo site_url("master_pangkat"); ?>">PANGKAT</a></li>
-               <!--  <li><a href="<?php echo site_url("master_pelaksana"); ?>">PELAKSANA</a></li> -->
+               <!--  <li><a href="<?php echo site_url("master_pangkat"); ?>">PANGKAT</a></li>
+                <li><a href="<?php echo site_url("master_pelaksana"); ?>">PELAKSANA</a></li> -->
                  <li><a href="<?php echo site_url("pasal"); ?>">PASAL</a></li>
                 
            </ul>
@@ -221,6 +221,7 @@
             
         </li>
         <li><a href="<?php echo site_url("pencarian"); ?>">PENCARIAN</a></li> 
+        <li><a href="<?php echo site_url("sync"); ?>">SINGKRONISASI</a></li>
         <li><a href="<?php echo site_url("login/logout"); ?>">KELUAR</a></li> 
 </div>
   </div>
